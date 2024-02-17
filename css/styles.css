@@ -11043,7 +11043,9 @@ footer.footer .social-link:hover {
     font-size: 5.5rem;
   }
 }
-
+.lola {
+  position: relative;
+}
 .colorib {
   display: block;
   position: absolute;
