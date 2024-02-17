@@ -11044,7 +11044,7 @@ footer.footer .social-link:hover {
   }
 }
 .lola {
-  position: relative;
+  z-index: 1;
 }
 .colorib {
   display: block;
