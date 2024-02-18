@@ -8160,7 +8160,7 @@ textarea.form-control-lg {
 }
 
 .dynamic {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.8;
   background-color: transparent;
   background-image: url("../assets/img/bg-blue.gif") !important;
   background-repeat: no-repeat;
@@ -8168,6 +8168,7 @@ textarea.form-control-lg {
   background-origin: center;
   background-position: center;
   background-attachment: scroll;
+  
 }
 
 .bg-dark {
@@ -10842,7 +10843,7 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 5.5rem;
   padding-bottom: 7.5rem;
 }
 
@@ -10888,7 +10889,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgba(3,255,188,0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10942,7 +10943,7 @@ html {
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
-  transition: all 0.4s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 .menu-toggle {
