@@ -76,7 +76,7 @@
   --bs-link-color: #1D809F;
   --bs-link-hover-color: #17667f;
   --bs-code-color: #c4ff03;
-  --bs-highlight-bg: #ff03c4;
+  --bs-highlight-bg: #a203ff;
 }
 
 *,
@@ -100,7 +100,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: auto;
+  -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -11018,7 +11018,7 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
-  min-height: 100vh;
+  min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
