@@ -8162,7 +8162,7 @@ textarea.form-control-lg {
 .dynamic {
   --bs-bg-opacity: 1;
   background-color: transparent;
-  background-image: url('https://media2.giphy.com/media/gBIRs5wJEIebu/giphy.gif?cid=2154d3d7vi1emgammcdakuwn4y1pf6qtiyyffeeck23xr1x2&ep=v1_gifs_search&rid=giphy.gif&ct=g') !important;
+  background-image: url('assets/img/bg-blue.gif') !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: center;
@@ -11025,7 +11025,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.gif");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.JPEG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
