@@ -8160,7 +8160,7 @@ textarea.form-control-lg {
 }
 
 .dynamic {
-  --bs-bg-opacity: 0.8;
+  --bs-bg-opacity: 1;
   background-color: transparent;
   background-image: url("../assets/img/bg-blue.gif") !important;
   background-repeat: no-repeat;
@@ -8168,7 +8168,6 @@ textarea.form-control-lg {
   background-origin: center;
   background-position: center;
   background-attachment: scroll;
-  
 }
 
 .bg-dark {
@@ -10843,7 +10842,7 @@ html {
 }
 
 .content-section {
-  padding-top: 5.5rem;
+  padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
 
@@ -11019,12 +11018,12 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
-  min-height: 30rem;
+  min-height: 100vh;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 7rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.JPEG");
   background-position: center center;
