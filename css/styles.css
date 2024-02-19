@@ -11017,7 +11017,7 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
-  min-height: 30rem;
+  min-height: 100vh;
   position: relative;
   display: table;
   width: 100%;
