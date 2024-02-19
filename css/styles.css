@@ -10913,9 +10913,10 @@ html {
 }
 
 .content-section {
-  margin-top: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 8rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  padding-top: 5.5rem;
+  padding-bottom: 6.5rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
