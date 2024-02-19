@@ -8235,7 +8235,7 @@ textarea.form-control-lg {
   background-color: transparent;
   background-image: url("../assets/img/bg-blue .gif") !important;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 110%;
   background-origin: center;
   background-position: center;
   background-attachment: scroll;
