@@ -2842,6 +2842,45 @@ textarea.form-control-lg {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
+.btn-bright {
+  --bs-btn-color: #f4f4f4;
+  --bs-btn-bg: rgba(0, 0, 0, 0.7);
+  --bs-btn-border-color: rgb(146, 148, 248);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(0, 0, 0, 0.9);
+  --bs-btn-hover-border-color: #3d575e;
+  --bs-btn-focus-shadow-rgb: 63, 147, 173;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #3d575e;
+  --bs-btn-active-border-color: #166077;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #1D809F;
+  --bs-btn-disabled-border-color: #1D809F;
+}
+.btn-bright:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.btn-bright:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+.btn-bright:hover:before {
+  left: 100%;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #02c4aa;
