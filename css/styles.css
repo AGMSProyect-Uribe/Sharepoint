@@ -396,10 +396,6 @@ button:not(:disabled),
   padding: 0;
   border-style: none;
 }
-.text-break {
-  word-wrap: break-word;
-  word-break: break-word;
-}
 textarea {
   resize: vertical;
 }
@@ -10891,7 +10887,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: rgba(3,255,188,0.5);
+  background: rgba(145, 91, 245,0.85);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
