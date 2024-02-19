@@ -8161,7 +8161,7 @@ textarea.form-control-lg {
 .dynamic {
   --bs-bg-opacity: 1;
   background-color: transparent;
-  background-image: url("../assets/img/bg-blue.gif") !important;
+  background-image: url("../assets/img/bg-blue .gif") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: center;
@@ -9865,7 +9865,7 @@ textarea.form-control-lg {
   }
   .flex-xl-wrap {
     flex-wrap: wrap !important;
-  }https://github.com/AGMSProyect-Uribe/Sharepoint/edit/gh-pages/css/styles.css
+  }
   .flex-xl-nowrap {
     flex-wrap: nowrap !important;
   }
