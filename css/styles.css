@@ -10910,7 +10910,8 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  margin-top: 1.5rem;
+  padding-top: 5rem;
   padding-bottom: 7.5rem;
 }
 
