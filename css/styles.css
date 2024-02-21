@@ -199,6 +199,8 @@ p {
   background-origin: center;
   background-position: center;
   background-attachment: scroll;
+  border: 3px groove #02c491;
+  border-radius: 15px 30px 15px;
 }
 .demo-content {
   position: relative;
