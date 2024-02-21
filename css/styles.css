@@ -202,6 +202,33 @@ p {
 .gray-accent {
   color: var(--bs-gray);
 }
+
+.blink {
+  animation: blink 6s infinite normal forwards; 
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  40% { opacity: 1; }
+  45% { opacity: 0.5; } 
+  50% { opacity: 0; }
+  90% { opacity: 0; }
+  95% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.blinker {
+  animation: blinker 6s infinite normal forwards; 
+}
+@keyframes blinker {
+  0% { opacity: 0; }
+  40% { opacity: 0; }
+  45% { opacity: 0.5; } 
+  50% { opacity: 1; }
+  90% { opacity: 1; }
+  95% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+
 .pulse {
   animation: pulse 2s .5s infinite normal cubic-bezier(0.445, 0.05, 0.55, 0.95) forwards; 
 }
