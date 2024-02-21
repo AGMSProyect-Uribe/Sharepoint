@@ -170,8 +170,11 @@ p {
 }
 
 .tiny-shit {
-  font-size: .4rem;
+  font-size: .85rem;
+  margin-top: .5rem;
+  margin-botton: 1rem;
 }
+
 .demo-wrap {
   position: relative;
 }
