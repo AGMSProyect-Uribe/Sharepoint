@@ -196,9 +196,7 @@ p {
 }
 
 .animation-boomerang {
-  animation-name: boomerang;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-name: boomerang 5s 2.5s 1 alternate ease both;
 }
 @keyframes boomerang {
   10% {
