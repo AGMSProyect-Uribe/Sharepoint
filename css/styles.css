@@ -168,7 +168,17 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.head-image {
+  --bs-bg-opacity: 0.5;
+  background-color: transparent;
+  background-image: url("https://media1.giphy.com/media/YZmVTsk0NqXY2pGw1z/giphy.gif?cid=2154d3d71cfe65585c183352a7d68445d9124585cc4440f2&ep=v1_user_favorites&rid=giphy.gif&ct=s") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: center;
+  background-position: center;
+  background-attachment: scroll;
+}
+}
 .gray-accent {
   color: var(--bs-gray);
 }
@@ -3180,6 +3190,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #f5c842;
   --bs-gradient: none;
 }
+
 .btn-outline-warning {
   --bs-btn-color: #ecb807;
   --bs-btn-border-color: #ecb807;
