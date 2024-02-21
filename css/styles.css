@@ -168,6 +168,9 @@ p {
   margin-bottom: 1rem;
 }
 
+.gray-accent {
+  color: var(--bs-gray);
+}
 .pulse {
   animation: pulse 2s .5s infinite normal cubic-bezier(0.445, 0.05, 0.55, 0.95) forwards; 
 }
