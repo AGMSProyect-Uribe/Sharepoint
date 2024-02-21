@@ -205,6 +205,7 @@ p {
 
 .blink {
   animation: blink 6s infinite normal forwards; 
+  position: relative;
 }
 @keyframes blink {
   0% { opacity: 1; }
@@ -218,6 +219,8 @@ p {
 
 .blinker {
   animation: blinker 6s infinite normal forwards; 
+  position: absolute;
+  top: 0;
 }
 @keyframes blinker {
   0% { opacity: 0; }
