@@ -527,10 +527,10 @@ progress {
 }
 
 .swirl-in-fwd {
-	-webkit-animation: swirl-in-fwd 1s ease-out both;
-	        animation: swirl-in-fwd 1s ease-out both;
+	-webkit-animation: swirl-in-fwd 1s 2s 1 normal ease-in both;
+	        animation: swirl-in-fwd 1s 2s 1 normal ease-in both;
 }
-@-webkit-keyframes swirl-in-fwd {
+@webkit-keyframes swirl-in-fwd {
   0% {
     -webkit-transform: rotate(-540deg) scale(0);
             transform: rotate(-540deg) scale(0);
