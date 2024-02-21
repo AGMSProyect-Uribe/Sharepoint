@@ -195,7 +195,7 @@ p {
        } 
 }
 
-.boomerang {
+.animation-boomerang {
   animation-name: boomerang;
   animation-duration: 3s;
   animation-delay: 2s;
