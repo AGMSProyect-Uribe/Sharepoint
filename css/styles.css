@@ -187,7 +187,7 @@ p {
 }
 
 .boomerang {
-  animation: boomerang 7s 2s 3 normal ease forwards;
+  animation: boomerang 5s 2s 2 alternate ease both
 }
 @keyframes boomerang {
   10% {
