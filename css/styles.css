@@ -168,39 +168,31 @@ p {
   margin-bottom: 1rem;
 }
 
-  @-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale3d(1, 1, 1); }
-  50% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1); }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1); } }
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale3d(1, 1, 1); }
-  50% {
-    -moz-transform: scale3d(1.1, 1.1, 1.1); }
-  100% {
-    -moz-transform: scale3d(1, 1, 1); } }
-@-o-keyframes pulse {
-  0% {
-    -o-transform: scale3d(1, 1, 1); }
-  50% {
-    -o-transform: scale3d(1.1, 1.1, 1.1); }
-  100% {
-    -o-transform: scale3d(1, 1, 1); } }
+
 @keyframes pulse {
   0% {
-    transform: scale3d(1, 1, 1); }
+      transform: scale3d(1, 1, 1);
+     }
   50% {
-    transform: scale3d(1.1, 1.1, 1.1); }
+    transform: scale3d(1.1, 1.1, 1.1); 
+      }
   100% {
-    transform: scale3d(1, 1, 1); } }
-
-.animation {
+    transform: scale3d(1, 1, 1);
+       } 
+}
+@-webkit-keyframes pulse {
+  0% {
+      -webkit-transform: scale3d(1, 1, 1); 
+     }
+  50% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1); 
+      }
+  100% {
+         -webkit-transform: scale3d(1, 1, 1);
+       } 
+}
+.animation-pulse {
   -webkit-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-  -moz-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-  -o-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
   animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite; 
 }
 
@@ -526,33 +518,29 @@ progress {
   font-weight: 300;
 }
 
-.swirl-in-fwd {
+.animation-swirl {
 	-webkit-animation: swirl-in-fwd 1s 2s 1 normal ease-in both;
 	        animation: swirl-in-fwd 1s 2s 1 normal ease-in both;
 }
-@webkit-keyframes swirl-in-fwd {
-  0% {
-    -webkit-transform: rotate(-540deg) scale(0);
-            transform: rotate(-540deg) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-}
 @keyframes swirl-in-fwd {
-  0% {
-    -webkit-transform: rotate(-540deg) scale(0);
-            transform: rotate(-540deg) scale(0);
-    opacity: 0;
+  from {
+      transform: rotate(-540deg) scale(0);
+      opacity: 0;
+       }
+  to {
+        transform: rotate(0) scale(1);
+        opacity: 1;
+     }
+}
+@-webkit-keyframes swirl-in-fwd {
+  from {
+         -webkit-transform: rotate(-540deg) scale(0);
+         opacity: 0;
   }
-  100% {
-    -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
-    opacity: 1;
-  }
+  to {
+       -webkit-transform: rotate(0) scale(1);
+       opacity: 1;
+     }
 }
 
 .display-1 {
