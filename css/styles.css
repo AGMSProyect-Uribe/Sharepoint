@@ -177,7 +177,7 @@ p {
 
 .demo-wrap {
   position: relative;
-  height: 2.5rem;
+  height: 30vh;
 }
 
 .demo-wrap:before {
