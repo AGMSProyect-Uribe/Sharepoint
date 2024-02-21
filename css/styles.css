@@ -198,6 +198,9 @@ p {
 }
 .demo-content {
   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .gray-accent {
@@ -207,10 +210,8 @@ p {
 .blink {
   animation: blink 6s infinite normal forwards; 
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
+
 @keyframes blink {
   0% { opacity: 1; }
   40% { opacity: 1; }
