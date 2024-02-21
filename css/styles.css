@@ -3169,8 +3169,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-barbie {
-  --bs-btn-color: #f5c842
-  --bs-btn-border-color: #f5c842
+  --bs-btn-color: #f5c842;
+  --bs-btn-border-color: #f5c842;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #f5c842;
   --bs-btn-hover-border-color: #f5c842;
