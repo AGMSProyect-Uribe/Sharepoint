@@ -168,7 +168,7 @@ p {
   margin-bottom: 1rem;
 }
 
-.animation-pulse {
+.pulse {
   -webkit-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
   animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite; 
 }
@@ -195,8 +195,8 @@ p {
        } 
 }
 
-.animation-boomerang {
-  animation-name: boomerang 5s 2.5s 1 alternate ease both;
+.boomerang {
+  animation: boomerang 5s 2.5s 1 alternate ease both;
 }
 @keyframes boomerang {
   10% {
