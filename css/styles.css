@@ -169,8 +169,7 @@ p {
 }
 
 .pulse {
-  -webkit-animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
-  animation: pulse 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite; 
+  animation: pulse 2s .5s infinite normal cubic-bezier(0.445, 0.05, 0.55, 0.95) forwards; 
 }
 @keyframes pulse {
   0% {
@@ -183,20 +182,9 @@ p {
     transform: scale3d(1, 1, 1);
        } 
 }
-@-webkit-keyframes pulse {
-  0% {
-      -webkit-transform: scale3d(1, 1, 1); 
-     }
-  50% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1); 
-      }
-  100% {
-         -webkit-transform: scale3d(1, 1, 1);
-       } 
-}
 
 .boomerang {
-  animation: boomerang 5s 2.5s 1 alternate ease both;
+  animation: boomerang 5s 2.5s infinite normal ease forwards;
 }
 @keyframes boomerang {
   10% {
@@ -220,6 +208,20 @@ p {
     z-index: 1;
     transform: translate(0%, 0%) rotate(-10deg);
   }
+}
+
+.swirl {
+  animation: swirl 1s 2s 3 normal ease-in forwards;
+}
+@keyframes swirl {
+  from {
+      transform: rotate(-540deg) scale(0);
+      opacity: 0;
+       }
+  to {
+        transform: rotate(0) scale(1);
+        opacity: 1;
+     }
 }
 
 abbr[title] {
@@ -544,30 +546,6 @@ progress {
   font-weight: 300;
 }
 
-.animation-swirl {
-	-webkit-animation: swirl-in-fwd 1s 2s 1 normal ease-in both;
-	        animation: swirl-in-fwd 1s 2s 1 normal ease-in both;
-}
-@keyframes swirl-in-fwd {
-  from {
-      transform: rotate(-540deg) scale(0);
-      opacity: 0;
-       }
-  to {
-        transform: rotate(0) scale(1);
-        opacity: 1;
-     }
-}
-@-webkit-keyframes swirl-in-fwd {
-  from {
-         -webkit-transform: rotate(-540deg) scale(0);
-         opacity: 0;
-  }
-  to {
-       -webkit-transform: rotate(0) scale(1);
-       opacity: 1;
-     }
-}
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
