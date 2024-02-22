@@ -407,7 +407,7 @@ pre code {
 }
 
 code {
-  font-size: 0.625em;
+  font-size: 0.75em;
   color: var(--bs-code-color);
   word-wrap: break-word;
 }
@@ -615,7 +615,7 @@ progress {
 
 .lead {
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
