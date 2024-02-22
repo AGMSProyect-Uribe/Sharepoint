@@ -390,6 +390,7 @@ code,
 kbd,
 samp {
   font-family: var(--bs-font-monospace);
+  font-weight: var(--bs-body-font-weight);
   font-size: 1em;
 }
 
