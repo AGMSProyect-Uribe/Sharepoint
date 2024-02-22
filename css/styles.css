@@ -226,7 +226,7 @@ p {
 }
 
 .blinker {
-  animation: blinker 8s .5s infinite normal forwards; 
+  animation: blinker 8s infinite normal forwards; 
   position: absolute;
   top: 0;
 }
