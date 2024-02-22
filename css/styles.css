@@ -1051,7 +1051,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 7rem;
   padding-bottom: 8rem;
-  background: linear-gradient(135deg, rgba(249, 230, 255, 1) 0%, rgba(181, 229, 230, 1) 100%), url("https://media0.giphy.com/media/8wtYXaKeUyc4QpclIB/giphy.gif?cid=2154d3d75vbg7zhamfs5a2basd8m8yz0uen3eokyg3bcii9i&ep=v1_gifs_related&rid=giphy.gif&ct=s");
+  background: linear-gradient(135deg, rgba(249, 230, 255, 1) 0%, rgba(181, 229, 230, 1) 100%), url("../assets/img/bg-masthead.gif");
   background-position: center;
   background-origin: center;
   background-repeat: no-repeat;
