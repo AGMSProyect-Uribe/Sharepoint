@@ -169,6 +169,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.portrait {
+  position: relative;
+  top: 0;
+}
+
 .jackInTheBox {
   -webkit-animation-name: jackInTheBox;
   animation-name: jackInTheBox;
@@ -1057,6 +1062,7 @@ footer.footer .social-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  opacity: .5;
 }
 
 
