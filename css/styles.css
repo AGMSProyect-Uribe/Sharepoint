@@ -352,14 +352,14 @@ small, .small {
 }
 
 mark, .mark {
-  padding: 0.1875em;
+  padding: 0.125em;
   background-color: var(--bs-highlight-bg);
 }
 
 sub,
 sup {
   position: relative;
-  font-size: 0.75em;
+  font-size: 0.6em;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -407,7 +407,7 @@ pre code {
 }
 
 code {
-  font-size: 0.875em;
+  font-size: 0.625em;
   color: var(--bs-code-color);
   word-wrap: break-word;
 }
