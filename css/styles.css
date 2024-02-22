@@ -170,7 +170,7 @@ p {
 }
 
 .portrait {
-  position: relative;
+  position: absolute;
   top: 0;
 }
 
@@ -1062,7 +1062,7 @@ footer.footer .social-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  opacity: .5;
+  opacity: 0.3;
 }
 
 
