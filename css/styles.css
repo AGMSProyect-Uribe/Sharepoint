@@ -407,8 +407,8 @@ pre code {
 }
 
 code {
-  font-size: 0.75em;
-  color: var(--bs-code-color);
+  font-size: 0.85em;
+  color: var(--bs-gray-900);
   word-wrap: break-word;
 }
 a > code {
