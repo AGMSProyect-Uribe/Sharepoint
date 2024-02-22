@@ -1051,7 +1051,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 7rem;
   padding-bottom: 8rem;
-  background: linear-gradient(135deg, rgba(249, 230, 255, 1) 0%, rgba(181, 229, 230, 1) 100%), url("../assets/img/bg-masthead.gif");
+  background: linear-gradient(135deg, rgba(249, 230, 255, .2) 0%, rgba(181, 229, 230, .2) 100%), url("../assets/img/bg-masthead.gif");
   background-position: center;
   background-origin: center;
   background-repeat: no-repeat;
