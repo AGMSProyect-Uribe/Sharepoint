@@ -799,6 +799,7 @@ progress {
 .img-stretch {
   min-width: 80vw;
   height: auto;
+  
 }
 
 .img-fluid {
