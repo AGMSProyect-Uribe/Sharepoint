@@ -874,6 +874,7 @@ html {
   margin-bottom: .5rem;
   padding-top: 5.7rem;
   padding-bottom: 7rem;
+  backdrop-filter: opacity(.3);
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -1062,7 +1063,6 @@ footer.footer .social-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  opacity: 0.3;
 }
 
 
