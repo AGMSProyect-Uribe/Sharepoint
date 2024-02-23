@@ -84,7 +84,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  overflow: clip;
+  overflow-x: clip;
   overflow-clip-margin: content-box;
 }
 
