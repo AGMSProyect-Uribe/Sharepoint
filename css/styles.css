@@ -7672,6 +7672,14 @@ textarea.form-control-lg {
   top: 25% !important;
 }
 
+.top-30 {
+  top: 30% !important;
+}
+
+.top-35 {
+  top: 35% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
