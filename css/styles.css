@@ -240,6 +240,7 @@ p {
 
 .special-plate {
   font-weight: var(--bs-gray-500);
+  vertical-align: middle;
 }
 
 .tiny-shit {
