@@ -801,6 +801,11 @@ progress {
   height: auto;
 }
 
+.img-shrink {
+  width: 80vw;
+  height: auto;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
