@@ -795,6 +795,11 @@ progress {
   content: "— ";
 }
 
+.img-stretch {
+  min-width: 100vw;
+  height: auto;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
