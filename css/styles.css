@@ -876,6 +876,10 @@ html {
   height: 100%;
 }
 
+.resize {
+  scale: .8;
+}
+
 .content-section {
   margin-top: .5rem;
   margin-bottom: .5rem;
