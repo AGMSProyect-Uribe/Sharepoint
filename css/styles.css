@@ -881,6 +881,13 @@ html {
   scale: .8;
 }
 
+.content-header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
 .content-section {
   margin-top: .5rem;
   margin-bottom: .5rem;
