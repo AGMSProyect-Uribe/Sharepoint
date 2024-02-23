@@ -85,6 +85,7 @@
 *::after {
   box-sizing: border-box;
   overflow-x: clip;
+  overflow-clip-margin: content-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
