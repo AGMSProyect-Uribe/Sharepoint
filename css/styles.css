@@ -7893,6 +7893,14 @@ textarea.form-control-lg {
   max-width: 100% !important;
 }
 
+.vw-50 {
+  width: 50vw !important;
+}
+
+.vw-75 {
+  width: 75vw !important;
+}
+
 .vw-100 {
   width: 100vw !important;
 }
@@ -7923,6 +7931,14 @@ textarea.form-control-lg {
 
 .mh-100 {
   max-height: 100% !important;
+}
+
+.vh-50 {
+  height: 50vh !important;
+}
+
+.vh-75 {
+  height: 75vh !important;
 }
 
 .vh-100 {
