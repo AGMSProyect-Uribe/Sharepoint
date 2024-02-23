@@ -796,7 +796,7 @@ progress {
 }
 
 .img-stretch {
-  min-width: 100vw;
+  min-width: 75vw;
   height: auto;
 }
 
