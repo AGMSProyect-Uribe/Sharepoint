@@ -802,10 +802,12 @@ progress {
 }
 
 .img-shrink {
-  width: 100%;
+  width: 90%;
   height: auto;
   position: relative;
   bottom: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .img-fluid {
