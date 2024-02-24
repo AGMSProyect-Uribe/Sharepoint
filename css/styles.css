@@ -178,14 +178,13 @@ p {
   margin-bottom: 1rem;
 }
 
-.shine {
+h2 {
   background: url("https://media3.giphy.com/media/1rRk9VvGRiX57N7ToM/giphy.gif?cid=2154d3d76ukaojgxf3f4po1cadpwhhu0xm9bsaae636mdpof&ep=v1_gifs_related&rid=giphy.gif&ct=g");
-  background-size: cover;
-  background-position: center;
-  color: #000;
-  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-clip: text;
   -webkit-background-clip: text;
-  padding: 0;
+  -webkit-text-fill-color: transparent;
 }
 
 .slide-in-right {
