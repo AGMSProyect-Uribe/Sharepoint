@@ -240,9 +240,6 @@ p {
 
 .special-plate {
   font-weight: var(--bs-gray-500);
-  display: block;
-  position: relative;
-  top: 1%;
 }
 
 .tiny-shit {
@@ -276,6 +273,7 @@ p {
 }
 .demo-content {
   position: relative;
+  top: 1%;
 }
 
 .gray-accent {
