@@ -188,6 +188,16 @@ h2  {
   -webkit-text-fill-color: transparent;
 }
 
+h4 {
+  background: url("https://media2.giphy.com/media/efWoZNhiZTLSaH1mPe/giphy.gif?cid=2154d3d75t7aiwqsg0e8kg9yi4yjij7qbbl5w4kdl83up6xl&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .slide-in-right {
 	-webkit-animation: slide-in-right 0.5s 5s 1 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-right 0.5s 5s 1 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
