@@ -178,7 +178,7 @@ p {
   margin-bottom: 1rem;
 }
 
-h2 {
+h2, h4 {
   background: url("https://media3.giphy.com/media/1rRk9VvGRiX57N7ToM/giphy.gif?cid=2154d3d76ukaojgxf3f4po1cadpwhhu0xm9bsaae636mdpof&ep=v1_gifs_related&rid=giphy.gif&ct=g");
   background-repeat: no-repeat;
   background-size: auto;
