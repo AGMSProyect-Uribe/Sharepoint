@@ -353,11 +353,11 @@ p {
 }
 
 .swirl {
-  animation: swirl 1s 2s 3 normal ease-in forwards;
+  animation: swirl 3s 1 normal ease-in forwards;
 }
 @keyframes swirl {
   from {
-      transform: rotate(-540deg) scale(0);
+      transform: rotate(-640deg) scale(0);
       opacity: 0;
        }
   to {
