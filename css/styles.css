@@ -899,6 +899,7 @@ html {
 
 .content-section {
   width: 100vw;
+  height: auto;
   margin-top: .5rem;
   margin-bottom: .5rem;
   padding-top: 5.7rem;
