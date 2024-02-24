@@ -181,7 +181,7 @@ p {
 p.shine {
   background: url("https://media3.giphy.com/media/1rRk9VvGRiX57N7ToM/giphy.gif?cid=2154d3d76ukaojgxf3f4po1cadpwhhu0xm9bsaae636mdpof&ep=v1_gifs_related&rid=giphy.gif&ct=g");
   background-size: cover;
-  color: #fff;
+  color: cyan;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   padding: 0;
