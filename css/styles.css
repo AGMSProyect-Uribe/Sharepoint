@@ -897,7 +897,7 @@ html {
   margin-bottom: .5rem;
   padding-top: 5.7rem;
   padding-bottom: 7rem;
-  backdrop-filter: contrast(.8) blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
