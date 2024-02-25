@@ -862,7 +862,7 @@ progress {
 .img-stretch {
   min-width: 100vw;
   height: auto;
-  scale: .9;
+  scale: .8;
 }
 
 .img-shrink {
