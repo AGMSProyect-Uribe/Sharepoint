@@ -86,6 +86,7 @@
   box-sizing: border-box;
   overflow-x: clip;
   overflow-clip-margin: content-box;
+  overflow-y: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
