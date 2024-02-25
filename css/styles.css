@@ -108,7 +108,7 @@ body {
 }  
 
 #header #about {
- overflow-y: clip;
+ overflow-y: hidden;
 }
 
 .indigo {
