@@ -86,7 +86,6 @@
   box-sizing: border-box;
   overflow-x: clip;
   overflow-clip-margin: content-box;
-  overflow-y: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -107,6 +106,11 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }  
+
+#header #about {
+ overflow-y: clip;
+}
+
 .indigo {
   background: #012863;
 }
