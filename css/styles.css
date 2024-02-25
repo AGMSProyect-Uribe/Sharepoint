@@ -862,7 +862,6 @@ progress {
 .img-stretch {
   min-width: 100vw;
   height: auto;
-  scale: .8;
 }
 
 .img-shrink {
@@ -877,6 +876,10 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.reduce-hero {
+  scale: .9;
 }
 
 .img-thumbnail {
