@@ -83,6 +83,6 @@ function nextPage() {
   location.href = "#about";
 }
 function aboutAni() {
-  document.getElementById("slide-right").style.animationPlayState = "running";
+  document.getElementById("slideRight").style.animationPlayState = "running";
 }
     
