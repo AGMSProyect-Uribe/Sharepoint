@@ -84,7 +84,7 @@ function nextPage() {
 }
 function aboutAnimation() {
   const animation = document.getElementById("slide-right");
-  const btn = document.getElementById("sec2toogle");
+  const btn = document.getElementById("sec2-toggle");
   btn.addEventListener("click", function() {
   animation.style.animationPlayState = "running";
 });
