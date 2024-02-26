@@ -79,11 +79,13 @@ function fadeIn(el, display) {
     })();
 };
 
-const sec2toggle = document.getElementById('sec2-toggle');
-  sec2toggle.addEventListener('click', () => {
-    const animations = document.querySelectorAll('[data-animation');
-    animations.forEach(animation => {
-      const running = animation.style.animationPlayState || 'running';
-      animation.style.animationPlayState = running === 'running' ? 'paused' : 'running';
-    })
-  });
+function nextPage() {
+  location.href = "#about";
+}
+function aboutAnimation() {
+  const animation = document.getElementById("slide-right");
+  const btn = document.getElementById("sec2toogle");
+  btn.addEventListener("click", function() {
+  animation.style.animationPlayState = "running";
+});
+}
