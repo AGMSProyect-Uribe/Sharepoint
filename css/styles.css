@@ -204,7 +204,7 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-.a-slide-right {
+.slide-right {
   --animdur: 1s;
   --animn: slideRight;
 }
