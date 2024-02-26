@@ -82,10 +82,7 @@ function fadeIn(el, display) {
 function nextPage() {
   location.href = "#about";
 }
-function aboutAnimation() {
-  const animation = document.getElementById("slide-right");
-  const btn = document.getElementById("sec2-toggle");
-  btn.addEventListener("click", function() {
-  animation.style.animationPlayState = "running";
-});
+function aboutAni() {
+  document.getElementById("slide-right").style.animationPlayState = "running";
 }
+    
