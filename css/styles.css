@@ -216,15 +216,8 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-.slide-right {
-  --animdur: 1s;
-  --animn: slideRight;
-  --animtf: linear
-  --animdel: 1s;
-  --animic: 1;
-  --animdir: forwards;
-  --animfm: none;
-  --animps: running;
+#slide-right {
+  animation: slideRight 1.5s linear 2s 1 forwards none paused;
 }
 @keyframes slideRight {
   0% {
