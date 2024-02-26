@@ -88,6 +88,18 @@
   overflow-clip-margin: content-box;
 }
 
+[data-animation] {
+  animation:
+    var(--animn, none)
+    var(--animdur, 1s)
+    var(--animtf, linear)
+    var(--animdel, 0s)
+    var(--animic, infinite)
+    var(--animdir, alternate)
+    var(--animfm, none)
+    var(--animps, running);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -207,10 +219,13 @@ h3 {
 .slide-right {
   --animdur: 1s;
   --animn: slideRight;
+  --animtf: linear
+  --animdel: 1s;
+  --animic: 1;
+  --animdir: forwards;
+  --animfm: none;
+  --animps: running;
 }
-[data-animation] {
-  animation: var(--animn, none) var(--animdur, 0s) var(--animtf, linear) var(--animdel, 1s) var(--animic, 1) var(--animdir, forwards) var(--animfm, none) var(--animps, running);
-    }	
 @keyframes slideRight {
   0% {
     -webkit-transform: translateX(1000px);
