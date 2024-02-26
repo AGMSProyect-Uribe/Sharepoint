@@ -78,3 +78,12 @@ function fadeIn(el, display) {
         }
     })();
 };
+
+const sec2toggle = document.getElementById('sec2-toggle');
+  sec2toggle.addEventListener('click', () => {
+    const animations = document.querySelectorAll('[data-animation');
+    animations.forEach(animation => {
+      const running = animation.style.animationPlayState || 'running';
+      animation.style.animationPlayState = running === 'running' ? 'paused' : 'running';
+    })
+  });
