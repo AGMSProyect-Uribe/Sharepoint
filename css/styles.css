@@ -220,13 +220,16 @@ h3 {
   width: 75vw;
   height: auto;
   background: red;
-  position: relative;
+  position: absolute;
+  top: var(--top-25);
+  left: calc(var(--start-100) + 10vw);
   animation: slideRight 1.5s linear 2s 1 forwards none;
   animation-play-state: paused;
+  
 }
 @keyframes slideRight {
-  from { left: 200px;opacity: 0; }
-  to { left:0px;opacity: 1; }
+  from { left:calc(var(--start-100)+10vw);opacity:0; }
+  to { left:var(--start-0);opacity:1; }
 }
 
 .portrait {
